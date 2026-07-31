@@ -1,0 +1,24 @@
+2026-07-29 12:38:58,718 | database | INFO | Database initialized successfully.
+2026-07-29 12:38:58,722 | database | INFO | Database backed up to: ./backups\vpn_bot_20260729_123858.db
+2026-07-29 12:38:58,723 | utils.backup | INFO | Backup scheduler started (every 6h).
+2026-07-29 12:38:58,723 | monitors.health_check | INFO | Health monitor started (interval: 5min).
+2026-07-29 12:38:58,723 | __main__ | INFO | 🚀 Bot started successfully.
+2026-07-29 12:39:12,631 | pasarguard | WARNING | Standard group not found, using default ID=2
+2026-07-29 12:41:13,488 | pasarguard | WARNING | Standard group not found, using default ID=2
+2026-07-29 12:47:48,773 | database | INFO | Database initialized successfully.
+2026-07-29 12:47:48,775 | database | INFO | Database backed up to: ./backups\vpn_bot_20260729_124748.db
+2026-07-29 12:47:48,776 | utils.backup | INFO | Backup scheduler started (every 6h).
+2026-07-29 12:47:48,776 | monitors.health_check | INFO | Health monitor started (interval: 5min).
+2026-07-29 12:47:48,778 | __main__ | INFO | 🚀 Bot started successfully.
+2026-07-29 12:56:47,464 | database | INFO | Database initialized successfully.
+2026-07-29 12:56:47,467 | database | INFO | Database backed up to: ./backups\vpn_bot_20260729_125647.db
+2026-07-29 12:56:47,468 | utils.backup | INFO | Backup scheduler started (every 6h).
+2026-07-29 12:56:47,469 | monitors.health_check | INFO | Health monitor started (interval: 5min).
+2026-07-29 12:56:47,469 | __main__ | INFO | 🚀 Bot started successfully.
+2026-07-29 12:58:04,688 | pasarguard | WARNING | Standard group not found, using default ID=2
+2026-07-29 13:02:13,586 | database | INFO | Database initialized successfully.
+2026-07-29 13:02:13,589 | database | INFO | Database backed up to: ./backups\vpn_bot_20260729_130213.db
+2026-07-29 13:02:13,591 | utils.backup | INFO | Backup scheduler started (every 6h).
+2026-07-29 13:02:13,592 | monitors.health_check | INFO | Health monitor started (interval: 5min).
+2026-07-29 13:02:13,592 | __main__ | INFO | 🚀 Bot started successfully.
+2026-07-29 13:02:29,675 | pasarguard | WARNING | Standard group not found, using default ID=2
