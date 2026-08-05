@@ -1,0 +1,1166 @@
+2026-08-05 10:32:58,200 | database | INFO | Database initialized successfully.
+2026-08-05 10:32:58,203 | database | INFO | Database backed up to: ./backups\vpn_bot_20260805_103258.db
+2026-08-05 10:32:58,205 | utils.backup | INFO | Backup scheduler started (every 6h).
+2026-08-05 10:32:58,206 | monitors.health_check | INFO | Health monitor started (interval: 5min).
+2026-08-05 10:32:58,206 | monitors.subscription_monitor | INFO | Subscription monitor started (interval: 60min).
+2026-08-05 10:32:58,206 | utils.task_queue | INFO | TaskQueue started with 3 workers.
+2026-08-05 10:32:58,207 | __main__ | INFO | 🚀 Bot started successfully.
+2026-08-05 10:33:43,703 | __main__ | ERROR | Error processing update 1242: 'sqlite3.Row' object has no attribute 'get'
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 563, in main
+    handle_text_message(update["message"])
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 229, in handle_text_message
+    handle_receipt(user_id, chat_id, msg, data)
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\handlers\payment.py", line 65, in handle_receipt
+    order_type_val = order.get('order_type', 'new')
+                     ^^^^^^^^^
+AttributeError: 'sqlite3.Row' object has no attribute 'get'
+2026-08-05 10:56:02,845 | database | INFO | Database initialized successfully.
+2026-08-05 10:56:02,846 | database | INFO | Database backed up to: ./backups\vpn_bot_20260805_105602.db
+2026-08-05 10:56:02,848 | utils.backup | INFO | Backup scheduler started (every 6h).
+2026-08-05 10:56:02,849 | monitors.health_check | INFO | Health monitor started (interval: 5min).
+2026-08-05 10:56:02,849 | monitors.subscription_monitor | INFO | Subscription monitor started (interval: 60min).
+2026-08-05 10:56:02,850 | utils.task_queue | INFO | TaskQueue started with 3 workers.
+2026-08-05 10:56:02,850 | __main__ | INFO | 🚀 Bot started successfully.
+2026-08-05 10:56:49,825 | pasarguard | WARNING | Standard group not found, using default ID=2
+2026-08-05 10:57:16,403 | pasarguard | INFO | Adding 5GB to usr_3574195fd264: 32212254720 -> 37580963840
+2026-08-05 10:57:16,966 | pasarguard | INFO | User usr_3574195fd264 volume verified after full PUT. New limit: 37580963840
+2026-08-05 10:57:42,794 | pasarguard | INFO | Extending expiry from 1791098809 + 60d = 1796282809
+2026-08-05 10:57:43,033 | pasarguard | INFO | User usr_3574195fd264 expiry updated via full PUT. New expire: 1796282809
+2026-08-05 12:22:12,191 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:22:17,766 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:22:25,969 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:22:28,182 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:22:33,514 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:22:36,106 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /api/user
+2026-08-05 12:22:38,733 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:22:41,310 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /api/user
+2026-08-05 12:22:46,936 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:22:49,140 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:22:49,513 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /api/user
+2026-08-05 12:22:51,848 | monitors.health_check | WARNING | Panel health check FAILED (1x): HTTPSConnectionPool(host='vip-03.fl-sub.site', port=2096): Max retries exceeded with url: /api/user (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:22:54,363 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:22:59,567 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:23:07,793 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:23:10,005 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:23:15,211 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:23:20,415 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:23:28,640 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:23:30,862 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:23:36,088 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:23:41,292 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:23:49,498 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:23:51,705 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:23:56,916 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:24:02,123 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:24:10,330 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:24:12,569 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:24:17,776 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:24:22,983 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:24:31,189 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:24:33,393 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:24:38,624 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:24:43,830 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:24:52,039 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:24:54,245 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:24:59,463 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:25:04,669 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:25:12,874 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:25:15,079 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:25:20,296 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:25:25,503 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:25:33,711 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:25:35,917 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:25:41,131 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:25:46,368 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:25:54,575 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:25:56,781 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:26:02,005 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:26:07,212 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:26:15,418 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:26:17,625 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:26:22,854 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:26:28,061 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:26:36,267 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:26:38,473 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:26:43,704 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:26:48,911 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:26:57,143 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:26:59,349 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:27:04,565 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:27:09,772 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:27:18,001 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:27:20,208 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:27:25,424 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:27:30,647 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:27:38,855 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:27:41,063 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:27:46,279 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:27:51,487 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:27:54,074 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /api/user
+2026-08-05 12:27:59,281 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /api/user
+2026-08-05 12:27:59,715 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:28:01,920 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:28:07,130 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:28:07,488 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /api/user
+2026-08-05 12:28:09,806 | monitors.health_check | WARNING | Panel health check FAILED (2x): HTTPSConnectionPool(host='vip-03.fl-sub.site', port=2096): Max retries exceeded with url: /api/user (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:28:12,352 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:28:20,559 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:28:22,763 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:28:27,970 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:28:33,206 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:28:41,411 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:28:43,616 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:28:48,828 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:28:54,035 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:29:02,239 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:29:04,467 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:29:09,692 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:29:14,909 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:29:23,116 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:29:25,320 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:29:30,543 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:29:35,750 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:29:43,956 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:29:46,159 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:29:51,369 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:29:56,573 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:30:04,781 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:30:06,989 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:30:12,231 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:30:17,439 | urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:30:25,645 | urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
+2026-08-05 12:30:27,850 | __main__ | ERROR | Error in polling loop: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\مشخصات  اکانت های هوش مصنوعی\پروژه های ربات ها\انجام  شده ها\VPN-Bot-bale and telegram\VPN BALE\vpn bot ipthabet bale main\main.py", line 556, in main
+    res = BaleAPI._get_session().get(url, timeout=(5, 30)).json()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asia Rayan\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='tapi.bale.ai', port=443): Max retries exceeded with url: /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2026-08-05 12:30:36,201 | urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='tapi.bale.ai', port=443): Read timed out. (read timeout=5)")': /bot1551664099:qH2Ypoi6S_vmDoCu9u2G1wkWNHFh4uOL5-I/getUpdates?offset=1262&timeout=20
